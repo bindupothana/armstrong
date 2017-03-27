@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="armApp">
+<head>
+	<title>armstrong</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="script/app.js"></script>
+
+</head>
+<body>
+<div ng-controller="armCtrl">
+<h3><br>AngularJs Armstrong Number </h3></br>
+Enter number:<input type="number" ng-model="num" />
+<button  class="btn-primary" type="submit"  ng-click="armstrong(num)">click</button>
+<br/><h4/> {{message}}
+<!--<br/><h4/>{{ num }} -->
+
+
+</body>
+</html>
